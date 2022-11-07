@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.form {
+  border: 2px solid #e7dce7;
+  border-radius: 20px;
+  min-height: 200px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin-top: 130px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.gg-btn {
+  margin: auto;
+  max-width: 240px;
+  border-radius: 10px;
+}
+
+.links {
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+ .acct{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ }
+
+ .acct-page{
+  margin-top: 60px;
+ }
+
+.user {
+  display: grid;
+  grid-template-columns: repeat(5,1fr) ;
+  grid-template-rows: repeat(20, 1fr) ;
+  width: 60%;
+  gap: 20px;
+  
+}
+.btn {
+  
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 15px;
+}
+
+.profile {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: burlywood;
+  text-align: center;
+}
+
+.profile img{
+  border-radius: 50%;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
