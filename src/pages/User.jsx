@@ -16,8 +16,7 @@ const Home = () => {
         <p>{user.login.username}</p>
       </div>
     ));
-    // login.username
-    // picture.medium
+   
   };
   return (
     <div className="app">

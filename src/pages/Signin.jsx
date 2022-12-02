@@ -20,7 +20,7 @@ const Signin = () => {
     if (user != null) {
       navigate("account");
     }
-  }, [user]);
+  });
   return (
     <div className="form">
       <h1>Sign in</h1>
