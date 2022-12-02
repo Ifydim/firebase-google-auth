@@ -15,7 +15,7 @@ const Account = () => {
   };
   return (
     <div>
-      <Navbar />
+      <Navbar onClick={handleSignOut} />
 
       <div className="acct-page">
         <h1 className="acct">Account</h1>
