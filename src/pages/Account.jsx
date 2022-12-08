@@ -15,7 +15,7 @@ const Account = () => {
   };
   return (
     <div>
-      <Navbar onClick={handleSignOut} />
+      <Navbar  />
 
       <div className="acct-page">
         <h1 className="acct">Account</h1>
@@ -24,6 +24,9 @@ const Account = () => {
           <Link to="/home" className="btn">
             Go to home
           </Link>
+          <button className="log-btn" onClick={handleSignOut}>
+          LogOut
+        </button>
         </div>
       </div>
     </div>
